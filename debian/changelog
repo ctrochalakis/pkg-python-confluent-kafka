@@ -1,0 +1,5 @@
+python-confluent-kafka (0.9.1.2-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #836936)
+
+ -- Christos Trochalakis <yatiohi@ideopolis.gr>  Wed, 07 Sep 2016 09:55:40 +0300
