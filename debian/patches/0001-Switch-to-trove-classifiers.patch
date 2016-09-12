@@ -1,0 +1,21 @@
+From b5895e22067a690fd5bc65a37cd555cdbb0697ac Mon Sep 17 00:00:00 2001
+From: Christos Trochalakis <yatiohi@ideopolis.gr>
+Date: Wed, 7 Sep 2016 12:04:59 +0300
+Subject: Switch to trove classifiers
+
+This avoids shipping a license file in the top directory.
+---
+ setup.py | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/setup.py b/setup.py
+index dec7d93..27b59fc 100755
+--- a/setup.py
++++ b/setup.py
+@@ -18,4 +18,5 @@ setup(name='confluent-kafka',
+       url='https://github.com/confluentinc/confluent-kafka-python',
+       ext_modules=[module],
+       packages=find_packages(),
+-      data_files = [('', ['LICENSE'])])
++      classifiers=['License :: OSI Approved :: Apache Software License']
++)
